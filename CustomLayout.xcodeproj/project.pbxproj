@@ -14,6 +14,12 @@
 		E26A56D51D3779E900C9A7D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26A56D31D3779E900C9A7D8 /* LaunchScreen.storyboard */; };
 		E26A56E01D3779E900C9A7D8 /* CustomLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A56DF1D3779E900C9A7D8 /* CustomLayoutTests.swift */; };
 		E26A56EB1D3779E900C9A7D8 /* CustomLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A56EA1D3779E900C9A7D8 /* CustomLayoutUITests.swift */; };
+		E26A56F91D377C1F00C9A7D8 /* TransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A56F81D377C1F00C9A7D8 /* TransferView.swift */; };
+		E29767681D38A571001646DF /* BEMAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = E29767611D38A571001646DF /* BEMAnimations.m */; };
+		E29767691D38A571001646DF /* BEMCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = E29767631D38A571001646DF /* BEMCircle.m */; };
+		E297676A1D38A571001646DF /* BEMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = E29767651D38A571001646DF /* BEMLine.m */; };
+		E297676B1D38A571001646DF /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = E29767671D38A571001646DF /* BEMSimpleLineGraphView.m */; };
+		E297676E1D38A6E0001646DF /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E297676D1D38A6E0001646DF /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,17 @@
 		E26A56E61D3779E900C9A7D8 /* CustomLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26A56EA1D3779E900C9A7D8 /* CustomLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayoutUITests.swift; sourceTree = "<group>"; };
 		E26A56EC1D3779E900C9A7D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26A56F81D377C1F00C9A7D8 /* TransferView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferView.swift; sourceTree = "<group>"; };
+		E29767601D38A571001646DF /* BEMAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimations.h; sourceTree = "<group>"; };
+		E29767611D38A571001646DF /* BEMAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimations.m; sourceTree = "<group>"; };
+		E29767621D38A571001646DF /* BEMCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCircle.h; sourceTree = "<group>"; };
+		E29767631D38A571001646DF /* BEMCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCircle.m; sourceTree = "<group>"; };
+		E29767641D38A571001646DF /* BEMLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMLine.h; sourceTree = "<group>"; };
+		E29767651D38A571001646DF /* BEMLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMLine.m; sourceTree = "<group>"; };
+		E29767661D38A571001646DF /* BEMSimpleLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMSimpleLineGraphView.h; sourceTree = "<group>"; };
+		E29767671D38A571001646DF /* BEMSimpleLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMSimpleLineGraphView.m; sourceTree = "<group>"; };
+		E297676C1D38A58A001646DF /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E297676D1D38A6E0001646DF /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +116,14 @@
 			children = (
 				E26A56CA1D3779E900C9A7D8 /* AppDelegate.swift */,
 				E26A56CC1D3779E900C9A7D8 /* ViewController.swift */,
+				E297675F1D38A571001646DF /* LineGraphView */,
+				E26A56F81D377C1F00C9A7D8 /* TransferView.swift */,
+				E297676D1D38A6E0001646DF /* GraphView.swift */,
 				E26A56CE1D3779E900C9A7D8 /* Main.storyboard */,
 				E26A56D11D3779E900C9A7D8 /* Assets.xcassets */,
 				E26A56D31D3779E900C9A7D8 /* LaunchScreen.storyboard */,
 				E26A56D61D3779E900C9A7D8 /* Info.plist */,
+				E297676C1D38A58A001646DF /* Header.h */,
 			);
 			path = CustomLayout;
 			sourceTree = "<group>";
@@ -123,6 +144,21 @@
 				E26A56EC1D3779E900C9A7D8 /* Info.plist */,
 			);
 			path = CustomLayoutUITests;
+			sourceTree = "<group>";
+		};
+		E297675F1D38A571001646DF /* LineGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				E29767601D38A571001646DF /* BEMAnimations.h */,
+				E29767611D38A571001646DF /* BEMAnimations.m */,
+				E29767621D38A571001646DF /* BEMCircle.h */,
+				E29767631D38A571001646DF /* BEMCircle.m */,
+				E29767641D38A571001646DF /* BEMLine.h */,
+				E29767651D38A571001646DF /* BEMLine.m */,
+				E29767661D38A571001646DF /* BEMSimpleLineGraphView.h */,
+				E29767671D38A571001646DF /* BEMSimpleLineGraphView.m */,
+			);
+			path = LineGraphView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +229,7 @@
 				TargetAttributes = {
 					E26A56C61D3779E900C9A7D8 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = A8C9FV72JV;
 					};
 					E26A56DA1D3779E900C9A7D8 = {
 						CreatedOnToolsVersion = 7.3;
@@ -256,8 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E297676B1D38A571001646DF /* BEMSimpleLineGraphView.m in Sources */,
+				E29767691D38A571001646DF /* BEMCircle.m in Sources */,
 				E26A56CD1D3779E900C9A7D8 /* ViewController.swift in Sources */,
+				E297676A1D38A571001646DF /* BEMLine.m in Sources */,
+				E29767681D38A571001646DF /* BEMAnimations.m in Sources */,
+				E26A56F91D377C1F00C9A7D8 /* TransferView.swift in Sources */,
 				E26A56CB1D3779E900C9A7D8 /* AppDelegate.swift in Sources */,
+				E297676E1D38A6E0001646DF /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +444,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CustomLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TongxingPay.CustomLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = CustomLayout/Header.h;
 			};
 			name = Debug;
 		};
@@ -412,10 +459,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CustomLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TongxingPay.CustomLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = CustomLayout/Header.h;
 			};
 			name = Release;
 		};
@@ -484,6 +535,7 @@
 				E26A56F11D3779E900C9A7D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E26A56F21D3779E900C9A7D8 /* Build configuration list for PBXNativeTarget "CustomLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +544,7 @@
 				E26A56F41D3779E900C9A7D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E26A56F51D3779E900C9A7D8 /* Build configuration list for PBXNativeTarget "CustomLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +553,7 @@
 				E26A56F71D3779E900C9A7D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
